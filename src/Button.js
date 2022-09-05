@@ -3,7 +3,7 @@ import React from "react";
 const green = 'green';
 let i = 0;
 
-const colors = ['red', 'yellow', 'green', 'blue'];
+const colors = ['red', 'orange','yellow', 'green', 'blue', 'violet','purple'];
 
 export default class Butt extends React.Component{
     constructor (props){
@@ -23,7 +23,7 @@ export default class Butt extends React.Component{
     render(){
         return (
             <div>
-                <button style={{background: this.state.color}} onClick={this.changeColor}>Click ME</button>
+                <button style={{background: this.state.color, padding: 20}} onClick={this.changeColor}>CLICK ME TO CHANGE MY COLOR</button>
             </div>
         )
     }
